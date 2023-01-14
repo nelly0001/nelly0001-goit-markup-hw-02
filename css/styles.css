@@ -1,5 +1,7 @@
 :root {
     --primary-font:'Roboto', sans-serif; 
+    --primary-text-color: #2E2F42;
+    --secondary-text-color: #434455;
 }
 
 .list {
@@ -31,17 +33,18 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: #2E2F42;
+    color: var(--primary-text-color);
 }
     
 .section-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    color: var(--secondary-text-color)
 }
 
 .section-description-theme-light {
-        color: #434455;
+        color: var(--secondary-text-color)
 }
 
 .section-description-theme-dark {
@@ -53,8 +56,8 @@ body {
 }
 
 .card-body {
-    color: #434455;
-    background: #FFFFFF;
+    color: var(--secondary-text-color);
+    background : #FFFFFF;
 
 }
 
@@ -73,7 +76,7 @@ span.header-logo-second-word {
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
-    color: #2E2F42;
+    color: var(--primary-text-color);
 }
 
 /* ===============/COMPONENTS=========== */
@@ -83,7 +86,7 @@ span.header-logo-second-word {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: #2E2F42;
+    color: var(--primary-text-color);
 }
 
 .menu-link:hover,
@@ -97,7 +100,7 @@ span.header-logo-second-word {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color: var(--secondary-text-color);
 }
 
 .contact-mail:hover ,
@@ -110,7 +113,7 @@ span.header-logo-second-word {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color: var(--secondary-text-color);
 }
 
 .contact-phone-number:hover ,
@@ -146,7 +149,7 @@ span.header-logo-second-word {
     font-size: 36px;
     line-height: 1.11;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--primary-text-color);
 }  
 
 /* ================/WHAT WE ARE DOING=========== */
